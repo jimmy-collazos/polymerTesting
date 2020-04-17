@@ -1,7 +1,14 @@
 {
   "devDependencies": {},
   "dependencies": {
-    "web-component-tester": "^6.4.1",
-    "wct-istanbub": "0.0.2"
+    "istanbub": "latest",
+    "polymer-cli": "^1.9.11",
+    "wct-istanbub": "latest",
+    "web-component-tester": "^6.4.1"
+  },
+  "scripts": {
+    "test": "polymer test",
+    "build": "polymer build",
+    "serve": "polymer serve"
   }
 }
